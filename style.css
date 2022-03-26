@@ -24,7 +24,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 10rem;
+  margin-top: 8rem;
   margin-bottom: 2rem;
 }
 
@@ -43,7 +43,7 @@ body {
 /* CARD STYLES */
 
 .card {
-  height: 42rem;
+  height: 50rem;
   width: 30rem;
 }
 
@@ -71,18 +71,19 @@ body {
 }
 
 .card-img {
-  margin-top: 3rem;
+  margin-top: 6rem;
   margin-left: 4rem;
+  /* margin-bottom: 1rem; */
 }
 
 h1 {
   font-family: "Big Shoulders Display", sans-serif;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 3.5rem;
   text-transform: uppercase;
   color: hsl(0, 0%, 95%);
-  margin-bottom: 3rem;
-  margin-top: 2rem;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
   margin-left: 5rem;
   text-align: left;
 }
