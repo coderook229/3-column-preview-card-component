@@ -6,9 +6,13 @@
   padding: 0;
 }
 
+html {
+  font-size: 62.5%; /*   10px /16px = 62.5% 1rem = 10px  */
+}
+
 body {
-  max-width: 1440px;
-  font-size: 15px;
+  max-width: 144rem;
+  font-size: 1.5rem;
   background-color: hsl(0, 0%, 95%);
 }
 
@@ -20,33 +24,32 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 20px;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 53em) {
   .columns {
     flex-direction: column;
-    border: 0;
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 23.4em) {
   .columns {
-    margin-top: 50px;
+    margin-top: 5rem;
   }
 }
 
 /* CARD STYLES */
 
 .card {
-  height: 420px;
-  width: 300px;
+  height: 42rem;
+  width: 30rem;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 24em) {
   .card {
-    height: 400px;
+    height: 38rem;
   }
 }
 
@@ -55,47 +58,52 @@ body {
   border-radius: 5px 0 0 5px;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 53em) {
+  .sedans {
+    border-radius: 5px 5px 0 0;
+  }
+}
+
+@media only screen and (max-width: 23.4em) {
   .sedans {
     border-radius: 5px 5px 0 0;
   }
 }
 
 .card-img {
-  margin-top: 30px;
-  margin-left: 40px;
+  margin-top: 3rem;
+  margin-left: 4rem;
 }
 
 h1 {
   font-family: "Big Shoulders Display", sans-serif;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 3rem;
   text-transform: uppercase;
   color: hsl(0, 0%, 95%);
-  margin-bottom: 30px;
-  margin-top: 20px;
-  margin-left: 50px;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+  margin-left: 5rem;
   text-align: left;
 }
 
 p {
   color: hsla(0, 0%, 100%, 0.75);
   font-family: "Lexend Deca", sans-serif;
-  margin-left: 50px;
+  margin-left: 5rem;
   line-height: 1.6;
   width: 70%;
-  display: inline-block;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 23.438em) {
   p {
     width: 73%;
-    font-size: 15px;
+    font-size: 1.4rem;
   }
 }
 
 .suvs {
-  background-color: hsl(184, 100%, 22%);
+  background-color: hsl(184, 38%, 43%);
 }
 
 .luxury {
@@ -103,11 +111,13 @@ p {
   border-radius: 0 5px 5px 0;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 53.2em) {
   .luxury {
-    border-radius: 0 5px 5px 0;
+    border-radius: 0 0 5px 5px;
   }
+}
 
+@media only screen and (max-width: 23.4em) {
   .luxury {
     border-radius: 0 0 5px 5px;
   }
@@ -118,26 +128,26 @@ p {
 .btn {
   background-color: hsl(0, 0%, 95%);
   text-align: center;
-  margin-left: 50px;
-  margin-top: 70px;
-  padding: 10px 25px;
+  margin-left: 5rem;
+  margin-top: 7rem;
+  padding: 1rem 2.5rem;
   border: 0;
-  border-radius: 20px;
+  border-radius: 20rem;
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
   transition: background-color 0.2s;
   cursor: pointer;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 56.25em) {
   .btn {
-    margin-top: 50px;
+    margin-top: 5rem;
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 23.5em) {
   .btn {
-    margin-top: 35px;
+    margin-top: 2.5rem;
   }
 }
 
@@ -162,8 +172,8 @@ p {
 
 /* ATTRIBUTION */
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 53.2em) {
   .attribution {
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
   }
 }
